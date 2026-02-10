@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 1
+    </title>
+
+    <!-- aquí añado fontawesome -->
+    <script src="https://kit.fontawesome.com/98f7a5d46f.js" crossorigin="anonymous"></script>
+
+    <!-- aquí pongo google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+IN+Guides&display=swap" rel="stylesheet">
+    
+    <!-- aquí especifico la hoja de estilo -->
+    <link rel="stylesheet" href="checkpoint1.css">
+</head>
+<body>
+    <!-- clase grid one con dos párrafos. Dos columnas iguales y color al segundo párrafo -->
+    <div class="grid-one">
+        <p>Hello World</p>
+        <p>My Fantastic Content</p>
+    </div>
+    
+
+    <!-- clase grid two con tres divs de una única clase
+     tres columnas, la tercera el doble de ancha que las otras
+     colores de fondo diferentes en cada columna -->
+    <div class="grid-two">
+        <div class="texto">
+            whatever
+        </div>
+        <div class="texto">
+            text
+        </div>
+        <div class="texto">
+            I want
+        </div>
+    </div>
+
+    <!-- clase grid tres con dos divs de la misma clase, el primero con un
+     párrafo y el segundo con una imagen
+     grid con dos filas, la segunda el triple de alta que la primera
+     poner colores de fondo. Ancho del grid 500 y alto 300px
+     imágenes con 500 de ancho y 225 px de alto, con fit cover, que no se distorsione -->
+    <div class="grid-three">
+        <div class="contenido-grid-three">
+            <p>La ciudad más bonita del mundo</p>
+        </div>
+        <div class="contenido-grid-three">
+            <img src="Donostia.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- clase grid cuatro con dos divs hijos, el primero div class y el segundo id
+     el primero con párrafo y el segundo dos párrafos. 
+     grid con 2 filas iguales y en el id de nuevo un grid con dos columnas iguales.
+     ancho total del grid 500 px y fondo verde  -->
+    <div class="grid-four">
+        <div class="grid-four-class">
+            <p>Este es el texto del div class</p>
+        </div>
+
+        <div id="grid-four-div">
+            <p>Este es el primer texto del div id</p>
+            <p>Este es el segundo texto del div id</p>
+        </div>
+    </div>
+
+    <!-- clase grid cinco como el 4 pero en el segundo hijo irán dos imágenes
+     son de muy distinto tamaño pero al final deberán verse de 200px de ancho
+     cada una, y con fit cover -->
+    <div class="grid-five">
+        <div class="grid-five-class">
+            <p>Este es el texto del grid cinco</p>
+        </div>
+
+        <div id="grid-five-div">
+            <img src="mira-kemppainen-qC117ahi-mE-unsplash.jpg" alt="">
+            <img src="josh-hild-_TuI8tZHlk4-unsplash.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- clase grid seis con dos elementos, el primero un icono de font-awesome
+     el segundo un texto con una letra especial de google fonts
+     ancho del grid 500px y fondo gris -->
+    <div class="grid-six">
+        <div class="icono"><i class="fa-solid fa-earth-americas"></i></div>
+        <p>MY AWESOME GOOGLE FONT IS APPLIED HERE</p>
+    </div>
+
+</body>
+</html>
