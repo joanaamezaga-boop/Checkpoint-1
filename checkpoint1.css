@@ -1,0 +1,77 @@
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-one p:nth-child(2) {
+    color:blue;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-two > .texto-uno {
+    background-color: red;
+}
+
+.grid-two > .texto-dos {
+    background-color: blue;
+}
+
+.grid-two > .texto-tres {
+    background-color: yellow;
+}
+
+.grid-three {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    background-color:aquamarine;
+}
+
+.contenido-grid-three img {
+    width: 500px;
+    height: 225px;
+    object-fit:cover;
+}
+
+.grid-four {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+}
+
+#grid-four-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-five {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color:darksalmon;
+    width: 500px;
+}
+
+#grid-five-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid-five-div img {
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid-six {
+    font-family: "Playwrite IN Guides", cursive;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    width:500px;
+    background-color: gray;
+}
